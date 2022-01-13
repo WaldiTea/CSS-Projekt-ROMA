@@ -23,12 +23,6 @@ body {
     url(../img/cleo-topper.jpg) center/cover no-repeat fixed;
 }
 
-header,
-main,
-span {
-  color: #fff;
-}
-
 span {
   background: #333;
   padding: 0.3rem 0.5rem;
@@ -37,6 +31,28 @@ span {
 .title,
 .subtitle {
   margin-left: 12rem;
+}
+
+/*---------- color ----------*/
+/*###########################*/
+
+header,
+main,
+footer,
+span,
+.btn {
+  color: #fff;
+}
+
+.subtitle,
+.worker {
+  color: #e7bc0e;
+}
+
+.text,
+.health,
+footer p span {
+  color: #6bc1a3;
 }
 
 /*
@@ -78,7 +94,6 @@ span {
 */
 
 .subtitle {
-  color: #e7bc0e;
   font-family: "Tangerine";
   font-size: 3rem;
   margin-top: 5.5rem;
@@ -92,7 +107,6 @@ span {
 
 .text {
   width: 56rem;
-  color: #6bc1a3;
   font-size: 2.5rem;
   line-height: 5rem;
   margin-left: 22rem;
@@ -116,16 +130,8 @@ article {
   font-size: 2.8rem;
 }
 
-.workers {
-  color: #e7bc0e;
-}
-
 .pay {
   color: #cb91b6;
-}
-
-.health {
-  color: #6bc1a3;
 }
 
 .article-subtitle.workers,
@@ -144,14 +150,14 @@ article {
   margin-bottom: 10rem;
 }
 
-.picture {
-  background: #efefef;
+.sea {
+  background: url(../img/see.png) center/cover no-repeat;
+  background-color: #efefef;
 }
 
 .section-img {
   width: 100vw;
-  background: url(../img/see.png) no-repeat;
-  background-position: 60% 40%;
+  margin-bottom: -0.5rem;
 }
 
 .last-section {
@@ -169,7 +175,6 @@ article {
 }
 
 .btn {
-  color: #fff;
   font-family: sans-serif;
   font-size: 2.5rem;
   text-decoration: none;
@@ -190,12 +195,10 @@ article {
 
 footer {
   background: #000;
-  color: #fff;
   text-align: center;
   padding-bottom: 4rem;
 }
 
 footer p span {
   background: none;
-  color: #6bc1a3;
 }
